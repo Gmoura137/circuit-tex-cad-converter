@@ -392,7 +392,7 @@ def dict_to_circuit(d: dict) -> Circuit:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Demo: your four circuits re-created programmatically
+# Demo: four circuits re-created programmatically
 # ─────────────────────────────────────────────────────────────────────────────
 
 def make_demo_circuits() -> list:
