@@ -220,3 +220,8 @@ existing .tex
   ▼       ▼
 .tex    .dxf
 ```
+## Future Improvments:
+
+1. Add photos into the system that can read images and replicate into the virtual system
+2. Fix the CAD optimization for the images
+3. Include a visualizer in the system 
