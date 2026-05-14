@@ -1,0 +1,522 @@
+[
+  {
+    "name": "circuit_1",
+    "elements": [
+      {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 2,
+        "kind": "battery",
+        "label": "10 \\pm 0.1 \\, V",
+        "current": "0.07 \\pm 0.01 \\, A",
+        "options": ""
+      },
+      {
+        "x1": 0,
+        "y1": 2,
+        "x2": 2,
+        "y2": 2,
+        "kind": "R",
+        "label": "33\\, \\Omega",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2,
+        "y1": 2,
+        "x2": 2.5,
+        "y2": 2,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 2,
+        "x2": 2.5,
+        "y2": 0,
+        "kind": "R",
+        "label": "100\\, \\Omega",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 0,
+        "x2": 0,
+        "y2": 0,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 0,
+        "y1": 2,
+        "x2": 0,
+        "y2": 3.5,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 0,
+        "y1": 3.5,
+        "x2": 2.5,
+        "y2": 3.5,
+        "kind": "V",
+        "label": "2.49 \\pm 0.01 \\, V",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 3.5,
+        "x2": 2.5,
+        "y2": 2,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 2,
+        "x2": 4,
+        "y2": 2.5,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 4,
+        "y1": 2.5,
+        "x2": 5,
+        "y2": 1,
+        "kind": "V",
+        "label": "7.62 \\pm 0.01 \\, V",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 5,
+        "y1": 1,
+        "x2": 2.5,
+        "y2": 0,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      }
+    ]
+  },
+  {
+    "name": "circuit_2",
+    "elements": [
+      {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 2,
+        "kind": "battery",
+        "label": "10 \\pm 0.1 \\,V",
+        "current": "0.23 \\pm 0.01 \\, A",
+        "options": ""
+      },
+      {
+        "x1": 0,
+        "y1": 2,
+        "x2": 2,
+        "y2": 2,
+        "kind": "R",
+        "label": "10\\, \\Omega",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2,
+        "y1": 2,
+        "x2": 2.5,
+        "y2": 2,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 2,
+        "x2": 2.5,
+        "y2": 0,
+        "kind": "R",
+        "label": "33\\, \\Omega",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 0,
+        "x2": 0,
+        "y2": 0,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 0,
+        "y1": 2,
+        "x2": 0,
+        "y2": 3.5,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 0,
+        "y1": 3.5,
+        "x2": 2.5,
+        "y2": 3.5,
+        "kind": "V",
+        "label": "2.36 \\pm 0.01 \\, V",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 3.5,
+        "x2": 2.5,
+        "y2": 2,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 2,
+        "x2": 4,
+        "y2": 2.5,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 4,
+        "y1": 2.5,
+        "x2": 5,
+        "y2": 1,
+        "kind": "V",
+        "label": "7.74 \\pm 0.01 \\, V",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 5,
+        "y1": 1,
+        "x2": 2.5,
+        "y2": 0,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      }
+    ]
+  },
+  {
+    "name": "circuit_3",
+    "elements": [
+      {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 2,
+        "kind": "battery",
+        "label": "5 \\pm 0.1 \\, V",
+        "current": "0.2 \\pm 0.01 \\, A",
+        "options": ""
+      },
+      {
+        "x1": 0,
+        "y1": 2,
+        "x2": 2,
+        "y2": 2,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2,
+        "y1": 2,
+        "x2": 2.5,
+        "y2": 2,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 2,
+        "x2": 2.5,
+        "y2": 0,
+        "kind": "R",
+        "label": "33 \\Omega",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 0,
+        "x2": 0,
+        "y2": 0,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 2,
+        "x2": 4.5,
+        "y2": 2,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 4.5,
+        "y1": 2,
+        "x2": 4.5,
+        "y2": 0,
+        "kind": "R",
+        "label": "100 \\Omega",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 4.5,
+        "y1": 0,
+        "x2": 2.5,
+        "y2": 0,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 2,
+        "x2": 2.75,
+        "y2": 3.5,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.75,
+        "y1": 3.5,
+        "x2": 0,
+        "y2": 3.5,
+        "kind": "V",
+        "label": "4.97 \\pm 0.1 \\, V",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 0,
+        "y1": 3.5,
+        "x2": 2.5,
+        "y2": 0,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 4.5,
+        "y1": 2,
+        "x2": 7,
+        "y2": 2,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 7,
+        "y1": 2,
+        "x2": 7,
+        "y2": 0,
+        "kind": "V",
+        "label": "4.97 \\pm 0.1 \\, V",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 7,
+        "y1": 0,
+        "x2": 2.5,
+        "y2": 0,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      }
+    ]
+  },
+  {
+    "name": "circuit_4",
+    "elements": [
+      {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 2,
+        "kind": "battery",
+        "label": "5.1 \\, V",
+        "current": "0.15 \\pm 0.01 \\, A",
+        "options": ""
+      },
+      {
+        "x1": 0,
+        "y1": 2,
+        "x2": 2,
+        "y2": 2,
+        "kind": "R",
+        "label": "10 \\Omega",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2,
+        "y1": 2,
+        "x2": 2.5,
+        "y2": 2,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 2,
+        "x2": 2.5,
+        "y2": 0,
+        "kind": "R",
+        "label": "33 \\Omega",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 0,
+        "x2": 0,
+        "y2": 0,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 2,
+        "x2": 4.5,
+        "y2": 2,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 4.5,
+        "y1": 2,
+        "x2": 4.5,
+        "y2": 0,
+        "kind": "R",
+        "label": "100 \\Omega",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 4.5,
+        "y1": 0,
+        "x2": 2.5,
+        "y2": 0,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 0,
+        "y1": 2,
+        "x2": 0,
+        "y2": 3.5,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 0,
+        "y1": 3.5,
+        "x2": 2.5,
+        "y2": 3.5,
+        "kind": "V",
+        "label": "1.48 \\pm 0.01\\,V",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 2.5,
+        "y1": 3.5,
+        "x2": 2.5,
+        "y2": 2,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 4.5,
+        "y1": 2,
+        "x2": 7,
+        "y2": 2,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 7,
+        "y1": 2,
+        "x2": 7,
+        "y2": 0,
+        "kind": "V",
+        "label": "3.66 \\pm 0.01\\,V",
+        "current": "",
+        "options": ""
+      },
+      {
+        "x1": 7,
+        "y1": 0,
+        "x2": 2.5,
+        "y2": 0,
+        "kind": "short",
+        "label": "",
+        "current": "",
+        "options": ""
+      }
+    ]
+  }
+]

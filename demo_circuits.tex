@@ -1,0 +1,80 @@
+\documentclass{article}
+\usepackage{circuitikz}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+% circuit_1
+\begin{center}
+    \begin{circuitikz}
+        \draw (0,0) to[battery, l=$10 \pm 0.1 \, V$, i_=$0.07 \pm 0.01 \, A$] (0,2);
+        \draw (0,2) to[R, l=$33\, \Omega$] (2,2);
+        \draw (2,2) to[short] (2.5,2);
+        \draw (2.5,2) to[R, l=$100\, \Omega$] (2.5,0);
+        \draw (2.5,0) to[short] (0,0);
+        \draw (0,2) to[short] (0,3.5);
+        \draw (0,3.5) to[V, l=$2.49 \pm 0.01 \, V$] (2.5,3.5);
+        \draw (2.5,3.5) to[short] (2.5,2);
+        \draw (2.5,2) to[short] (4,2.5);
+        \draw (4,2.5) to[V, l=$7.62 \pm 0.01 \, V$] (5,1);
+        \draw (5,1) to[short] (2.5,0);
+    \end{circuitikz}
+\end{center}
+
+% circuit_2
+\begin{center}
+    \begin{circuitikz}
+        \draw (0,0) to[battery, l=$10 \pm 0.1 \,V$, i_=$0.23 \pm 0.01 \, A$] (0,2);
+        \draw (0,2) to[R, l=$10\, \Omega$] (2,2);
+        \draw (2,2) to[short] (2.5,2);
+        \draw (2.5,2) to[R, l=$33\, \Omega$] (2.5,0);
+        \draw (2.5,0) to[short] (0,0);
+        \draw (0,2) to[short] (0,3.5);
+        \draw (0,3.5) to[V, l=$2.36 \pm 0.01 \, V$] (2.5,3.5);
+        \draw (2.5,3.5) to[short] (2.5,2);
+        \draw (2.5,2) to[short] (4,2.5);
+        \draw (4,2.5) to[V, l=$7.74 \pm 0.01 \, V$] (5,1);
+        \draw (5,1) to[short] (2.5,0);
+    \end{circuitikz}
+\end{center}
+
+% circuit_3
+\begin{center}
+    \begin{circuitikz}
+        \draw (0,0) to[battery, l=$5 \pm 0.1 \, V$, i_=$0.2 \pm 0.01 \, A$] (0,2);
+        \draw (0,2) to[short] (2,2);
+        \draw (2,2) to[short] (2.5,2);
+        \draw (2.5,2) to[R, l=$33 \Omega$] (2.5,0);
+        \draw (2.5,0) to[short] (0,0);
+        \draw (2.5,2) to[short] (4.5,2);
+        \draw (4.5,2) to[R, l=$100 \Omega$] (4.5,0);
+        \draw (4.5,0) to[short] (2.5,0);
+        \draw (2.5,2) to[short] (2.75,3.5);
+        \draw (2.75,3.5) to[V, l=$4.97 \pm 0.1 \, V$] (0,3.5);
+        \draw (0,3.5) to[short] (2.5,0);
+        \draw (4.5,2) to[short] (7,2);
+        \draw (7,2) to[V, l=$4.97 \pm 0.1 \, V$] (7,0);
+        \draw (7,0) to[short] (2.5,0);
+    \end{circuitikz}
+\end{center}
+
+% circuit_4
+\begin{center}
+    \begin{circuitikz}
+        \draw (0,0) to[battery, l=$5.1 \, V$, i_=$0.15 \pm 0.01 \, A$] (0,2);
+        \draw (0,2) to[R, l=$10 \Omega$] (2,2);
+        \draw (2,2) to[short] (2.5,2);
+        \draw (2.5,2) to[R, l=$33 \Omega$] (2.5,0);
+        \draw (2.5,0) to[short] (0,0);
+        \draw (2.5,2) to[short] (4.5,2);
+        \draw (4.5,2) to[R, l=$100 \Omega$] (4.5,0);
+        \draw (4.5,0) to[short] (2.5,0);
+        \draw (0,2) to[short] (0,3.5);
+        \draw (0,3.5) to[V, l=$1.48 \pm 0.01\,V$] (2.5,3.5);
+        \draw (2.5,3.5) to[short] (2.5,2);
+        \draw (4.5,2) to[short] (7,2);
+        \draw (7,2) to[V, l=$3.66 \pm 0.01\,V$] (7,0);
+        \draw (7,0) to[short] (2.5,0);
+    \end{circuitikz}
+\end{center}
+
+\end{document}
